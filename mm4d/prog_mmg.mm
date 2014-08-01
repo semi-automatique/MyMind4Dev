@@ -49,6 +49,22 @@
 </stylenode>
 </map_styles>
 </hook>
+<node TEXT="Configuration" POSITION="right" ID="ID_801671700" CREATED="1406888769701" MODIFIED="1406888779000">
+<node TEXT="Feature: Software Project Configuration" ID="ID_9991625" CREATED="1406893790648" MODIFIED="1406893790648">
+<node TEXT="The development environment for the project :" ID="ID_1799626600" CREATED="1406893790648" MODIFIED="1406893790648">
+<node TEXT="Programming Language (Python)" ID="ID_675402771" CREATED="1406893790648" MODIFIED="1406893790648"/>
+<node TEXT="Configuration environment (Git, Setuptools, easy_install, pip)" ID="ID_313005642" CREATED="1406893790648" MODIFIED="1406893790648"/>
+<node TEXT="Virtual environment (virtualenv)" ID="ID_495363868" CREATED="1406893790648" MODIFIED="1406893790648"/>
+<node TEXT="Behavior-driven development (Behave)" ID="ID_820911006" CREATED="1406893790648" MODIFIED="1406893790648"/>
+<node TEXT="Documentation (Freeplane)" ID="ID_1826087677" CREATED="1406893790648" MODIFIED="1406893790648"/>
+</node>
+<node TEXT="Scenario: Do basic configuration" ID="ID_395609492" CREATED="1406893790648" MODIFIED="1406893790648">
+<node TEXT="Given a command prompt" ID="ID_1545250316" CREATED="1406893790648" MODIFIED="1406893790648"/>
+<node TEXT="When a programmer install the development environment" ID="ID_471309459" CREATED="1406893790648" MODIFIED="1406893790648"/>
+<node TEXT="Then the system can check the integrity of the installation." ID="ID_1691427400" CREATED="1406893790648" MODIFIED="1406893790648"/>
+</node>
+</node>
+</node>
 <node TEXT="References" POSITION="right" ID="ID_1043065814" CREATED="1406786871644" MODIFIED="1406786924936">
 <edge COLOR="#808080"/>
 <node TEXT="Open Sourcing a Python Project the Right Way" ID="ID_541281109" CREATED="1406786939000" MODIFIED="1406786984661" LINK="http://www.jeffknupp.com/blog/2013/08/16/open-sourcing-a-python-project-the-right-way/">
@@ -1130,6 +1146,7 @@
 <node TEXT="all, is the true spirit of Open Source Software, is it not?" ID="ID_553808141" CREATED="1406792949881" MODIFIED="1406792949881"/>
 </node>
 </node>
+<node TEXT="Installing Python on Windows" ID="ID_576753064" CREATED="1406892283384" MODIFIED="1406892319063" LINK="http://docs.python-guide.org/en/latest/starting/install/win/"/>
 </node>
 </node>
 </map>
