@@ -1,82 +1,7 @@
-<map version="freeplane 1.2.0">
+<map version="0.9.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="MyMind4Dev" ID="ID_873311003" CREATED="1406785931845" MODIFIED="1406921087965" LINK="."><hook NAME="MapStyle">
-
-<map_styles>
-<stylenode LOCALIZED_TEXT="styles.root_node">
-<stylenode LOCALIZED_TEXT="styles.predefined" POSITION="right">
-<stylenode LOCALIZED_TEXT="default" MAX_WIDTH="600" COLOR="#000000" STYLE="as_parent">
-<font NAME="SansSerif" SIZE="10" BOLD="false" ITALIC="false"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="defaultstyle.details"/>
-<stylenode LOCALIZED_TEXT="defaultstyle.note"/>
-<stylenode LOCALIZED_TEXT="defaultstyle.floating">
-<edge STYLE="hide_edge"/>
-<cloud COLOR="#f0f0f0" SHAPE="ROUND_RECT"/>
-</stylenode>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.user-defined" POSITION="right">
-<stylenode LOCALIZED_TEXT="styles.topic" COLOR="#18898b" STYLE="fork">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subtopic" COLOR="#cc3300" STYLE="fork">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.subsubtopic" COLOR="#669900">
-<font NAME="Liberation Sans" SIZE="10" BOLD="true"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.important">
-<icon BUILTIN="yes"/>
-</stylenode>
-</stylenode>
-<stylenode LOCALIZED_TEXT="styles.AutomaticLayout" POSITION="right">
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level.root" COLOR="#000000">
-<font SIZE="18"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,1" COLOR="#0033ff">
-<font SIZE="16"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,2" COLOR="#00b439">
-<font SIZE="14"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,3" COLOR="#990000">
-<font SIZE="12"/>
-</stylenode>
-<stylenode LOCALIZED_TEXT="AutomaticLayout.level,4" COLOR="#111111">
-<font SIZE="10"/>
-</stylenode>
-</stylenode>
-</stylenode>
-</map_styles>
-</hook>
-<node TEXT="Docs" POSITION="right" ID="ID_659288119" CREATED="1408286575220" MODIFIED="1408286578182">
-<node TEXT="mmg write - README.md" ID="ID_1797859243" CREATED="1408286768246" MODIFIED="1408451239530" LINK="../README.md">
-<cloud COLOR="#f0f0f0" SHAPE="ARC"/>
-<node TEXT="MyMind4Dev" ID="ID_767124959" CREATED="1408451195768" MODIFIED="1408451195768"/>
-<node TEXT=" ==========" ID="ID_283758284" CREATED="1408451195768" MODIFIED="1408451217486"/>
-<node TEXT="Be more **efficient** at **software development** using **mind maps**." ID="ID_452705523" CREATED="1408451195769" MODIFIED="1408451195769"/>
-<node TEXT="This is what **MyMind4Dev** is about. This project give you the tools" ID="ID_1112024941" CREATED="1408451197354" MODIFIED="1408451197354"/>
-<node TEXT="to go from **your first idea** to a **complete software** mixing" ID="ID_516958305" CREATED="1408451197354" MODIFIED="1408451197354"/>
-<node TEXT="unstructured idea with structure code in **mind maps**. It is a kind" ID="ID_1304904027" CREATED="1408451197355" MODIFIED="1408451197355"/>
-<node TEXT="of **literate programming** where you can **visually structure** your" ID="ID_300730002" CREATED="1408451197355" MODIFIED="1408451197355"/>
-<node TEXT="**code** and **documentation** without having to learn a **new visual" ID="ID_1203635371" CREATED="1408451197356" MODIFIED="1408451197356"/>
-<node TEXT="programming language**.  You just have to start using **MyMind4Dev**" ID="ID_1716076812" CREATED="1408451197357" MODIFIED="1408451197357"/>
-<node TEXT="with **your software development platform** and you&#x2019;re ready" ID="ID_1082678884" CREATED="1408451197357" MODIFIED="1408451197357"/>
-<node TEXT="to go." ID="ID_914739002" CREATED="1408451197358" MODIFIED="1408451197358"/>
-<node TEXT="" ID="ID_1447665768" CREATED="1408451227238" MODIFIED="1408451227238"/>
-<node TEXT="But first **you need** to **configure minimally** your environment." ID="ID_726607013" CREATED="1408451197402" MODIFIED="1408451197402"/>
-<node TEXT="mmg write - mmg_stop.txt" ID="ID_768250189" CREATED="1374601846822" MODIFIED="1374604085339" LINK="mmg_stop.txt" COLOR="#000000" STYLE="fork">
-<font SIZE="12" BOLD="false" ITALIC="false"/>
-<edge COLOR="#808080"/>
-<node TEXT="Ce fichier est n&#xe9;cessaire pour r&#xe9;cup&#xe9;rer les lignes qui suivent celle du programme dans un fichier." ID="ID_1726525665" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Ce fichier ne sera plus n&#xe9;cessaire quand le script mmg.py sera compl&#xe9;t&#xe9;." ID="ID_392727455" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-</node>
+<node TEXT="MyMind4Dev" ID="ID_873311003" CREATED="1406785931845" MODIFIED="1406786889113">
+<hook NAME="MapStyle" max_node_width="600"/>
 <node TEXT="Configuration" POSITION="right" ID="ID_801671700" CREATED="1406888769701" MODIFIED="1406888779000">
 <node TEXT="Feature: Software Project Configuration" ID="ID_9991625" CREATED="1406893790648" MODIFIED="1406893790648">
 <node TEXT="The development environment for the project :" ID="ID_1799626600" CREATED="1406893790648" MODIFIED="1406893790648">
@@ -86,207 +11,10 @@
 <node TEXT="Behavior-driven development (Behave)" ID="ID_820911006" CREATED="1406893790648" MODIFIED="1406893790648"/>
 <node TEXT="Documentation (Freeplane)" ID="ID_1826087677" CREATED="1406893790648" MODIFIED="1406893790648"/>
 </node>
-<node TEXT="" ID="ID_1823542206" CREATED="1408285753869" MODIFIED="1408285753869"/>
 <node TEXT="Scenario: Do basic configuration" ID="ID_395609492" CREATED="1406893790648" MODIFIED="1406893790648">
 <node TEXT="Given a command prompt" ID="ID_1545250316" CREATED="1406893790648" MODIFIED="1406893790648"/>
 <node TEXT="When a programmer install the development environment" ID="ID_471309459" CREATED="1406893790648" MODIFIED="1406893790648"/>
 <node TEXT="Then the system can check the integrity of the installation." ID="ID_1691427400" CREATED="1406893790648" MODIFIED="1406893790648"/>
-</node>
-</node>
-<node TEXT="mmg write - config_min.cmd" ID="ID_1160169551" CREATED="1406710531823" MODIFIED="1408286552634" LINK="../config_min.cmd">
-<cloud COLOR="#f0f0f0" SHAPE="ARC"/>
-<font BOLD="true"/>
-<node TEXT="# -*- coding: utf-8 -*-" ID="ID_149508271" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT=":: MyMind4Dev" ID="ID_1780753430" CREATED="1408286095379" MODIFIED="1408286116698">
-<node TEXT=":: This is the minimal configuration for windows." ID="ID_321315821" CREATED="1408286117413" MODIFIED="1408286139269"/>
-</node>
-<node TEXT=":: Step 1 - Download and install chocolatey" ID="ID_791991854" CREATED="1408286149162" MODIFIED="1408286183533">
-<node TEXT=":: https://chocolatey.org/" ID="ID_1868664648" CREATED="1408286530141" MODIFIED="1408286534440"/>
-</node>
-<node TEXT="mkdir docs" ID="ID_43681163" CREATED="1408285784920" MODIFIED="1408285800276"/>
-<node TEXT="mkdir mm4d" ID="ID_1464105517" CREATED="1408285784920" MODIFIED="1408285826522"/>
-<node TEXT="Feature: Construction de *syst&#xe8;mes d&apos;information* &#xe0; l&apos;aide de *mod&#xe8;les de connaissances* contenant une *sp&#xe9;cification semi-formelle*" ID="ID_563058512" CREATED="1406711183379" MODIFIED="1406719825884"/>
-<node TEXT="" ID="ID_1303899301" CREATED="1406719692827" MODIFIED="1406719692827">
-<node TEXT="% Construction de *syst&#xe8;mes d&apos;information* &#xe0; l&apos;aide de *mod&#xe8;les de connaissances* contenant une *sp&#xe9;cification semi-formelle*" ID="ID_1156920661" CREATED="1406719548882" MODIFIED="1406719839104"/>
-<node TEXT="% Guy Leblanc" ID="ID_1631715526" CREATED="1406719563629" MODIFIED="1406719570099"/>
-<node TEXT="% 2014-07-30" ID="ID_1116212686" CREATED="1406719570717" MODIFIED="1406719598788"/>
-</node>
-<node TEXT="# Description" ID="ID_1420952313" CREATED="1406719923906" MODIFIED="1406720058257">
-<node TEXT="" ID="ID_1975891396" CREATED="1406716960528" MODIFIED="1406720117925">
-<node TEXT="La construction de syst&#xe8;me d&apos;informations est complexe &#xe0; ma&#xee;triser car elle implique en g&#xe9;n&#xe9;rale des personnes r&#xe9;alisant un grand nombre de t&#xe2;ches cognitives difficile &#xe0; observer et par le fait m&#xea;me &#xe0; suivre et &#xe0; mesurer." ID="ID_1406087332" CREATED="1406711944490" MODIFIED="1406714957923"/>
-<node TEXT="Trois types d&apos;art&#xe9;facts, qui sont le r&#xe9;sultat de processus plus ou moins structur&#xe9;s, sont utilis&#xe9;s dans l&apos;industries pour relever le d&#xe9;fi soulev&#xe9; par la mise en place d&apos;un syst&#xe8;me d&apos;information :" ID="ID_715644982" CREATED="1406712215459" MODIFIED="1406713685619">
-<node TEXT="La documentation (Ian Sommerville)" ID="ID_907399427" CREATED="1406712785874" MODIFIED="1406712796799"/>
-<node TEXT="Les programmes qui le compose (Livre des MBA UofL)" ID="ID_355361622" CREATED="1406712799273" MODIFIED="1406713708546"/>
-<node TEXT="Les informations colliger ou g&#xe9;n&#xe9;rer par le syst&#xe8;me d&apos;information (???)" ID="ID_396790030" CREATED="1406713569527" MODIFIED="1406713737551"/>
-</node>
-<node TEXT="La validation et la v&#xe9;rification (v&amp;v) de ces art&#xe9;facts est le seul moyens d&apos;arriver &#xe0; s&apos;assurer que le syst&#xe8;me d&apos;information d&#xe9;sir&#xe9; fait ce pour quoi il a &#xe9;t&#xe9; con&#xe7;u et qu&apos;il r&#xe9;pond aux objectifs et exigences pour lequels il a &#xe9;t&#xe9; construit." ID="ID_1935506257" CREATED="1406713344596" MODIFIED="1406714069701"/>
-<node TEXT="Ce travail de validation et v&#xe9;rification en est un difficile car il n&apos;est que partiellement automatisable." ID="ID_928242581" CREATED="1406713867963" MODIFIED="1406714086789"/>
-<node TEXT="" ID="ID_609733559" CREATED="1406719700994" MODIFIED="1406719700994"/>
-</node>
-<node TEXT="## Besoins, exigences, validation et v&#xe9;rification" ID="ID_1290602453" CREATED="1406716987527" MODIFIED="1406719981763">
-<node TEXT="La construction d&apos;un syst&#xe8;me d&apos;information implique en g&#xe9;n&#xe9;rale l&apos;&#xe9;num&#xe9;ration d&apos;un ensemble d&apos;exigences impr&#xe9;cises au d&#xe9;part d&#xe9;coulant elle m&#xea;me de besoins qui sont impr&#xe9;cis." ID="ID_1102481289" CREATED="1406714091432" MODIFIED="1406714285175"/>
-<node TEXT="D&#xe8;s lors il devient &#xe9;vident que l&apos;impr&#xe9;cision des besions et exigences rendent impossible la validation la v&#xe9;rification formelle des art&#xe9;factes d&#xe9;coulants de la mise en place d&apos;un syst&#xe8;me d&apos;informations." ID="ID_1399700274" CREATED="1406714349625" MODIFIED="1406714556102"/>
-<node TEXT="Cette impossibilit&#xe9; de v&#xe9;rification formelle de l&apos;ensemble des art&#xe9;facts r&#xe9;sultants de la construction d&apos;un syst&#xe8;me d&apos;information n&apos;emp&#xea;che cependant pas des v&#xe9;rifications qui elle peuvent &#xea;tre partiellement ou compl&#xe8;tement formelle." ID="ID_1266767566" CREATED="1406714564357" MODIFIED="1406714751514"/>
-<node TEXT="C&apos;est ce qui est fait dans le domaine de l&apos;informatique avec plus ou moins de succ&#xe8;s en fonction de la capacit&#xe9; des &#xe9;quipes de projets &#xe0; formaliser les besoins, exigences et les art&#xe9;facts qui en d&#xe9;coule." ID="ID_699926307" CREATED="1406714752864" MODIFIED="1406714909646"/>
-<node TEXT="" ID="ID_1971328671" CREATED="1406719718861" MODIFIED="1406719718861"/>
-</node>
-<node TEXT="## Ma solution" ID="ID_1138302633" CREATED="1406717118367" MODIFIED="1406719984936">
-<node TEXT="Le texte qui va suivre pr&#xe9;sentera la solution que je propose pour arriver &#xe0; partir de besoins et exigences impr&#xe9;cises &#xe0; construire des art&#xe9;facts qui sont plus facile &#xe0; valider et &#xe0; v&#xe9;rifier." ID="ID_1370779576" CREATED="1406714915035" MODIFIED="1406715098661"/>
-<node TEXT="La solution que je propose utilise principalement des mod&#xe8;les de connaissances illustr&#xe9;s principalement &#xe0; l&apos;aide de cartes  de connaissances (&quot;Mind map&quot;)." ID="ID_1374295204" CREATED="1406715103408" MODIFIED="1406715268931"/>
-<node TEXT="L&apos;id&#xe9;e principale est de d&#xe9;crire l&apos;ensemble des connaissances n&#xe9;cessaire &#xe0; la construction d&apos;un syst&#xe8;me d&apos;information &#xe0; l&apos;aide de plusieurs cartes de connaissances utilisant un langage semi formelle de sp&#xe9;cification qui peut aider &#xe0; l&apos;automatisation partielle de la g&#xe9;n&#xe9;ration des art&#xe9;facts qui le compose." ID="ID_1593197447" CREATED="1406715291847" MODIFIED="1406715475609"/>
-<node TEXT="Je travail sur plusieurs &#xe9;l&#xe9;ments de cette solutions depuis plusieurs ann&#xe9;es.  Cependant le texte actuelle est la premi&#xe8;re description compl&#xe8;te du d&#xe9;fi que je tentais de relever et que je tentais d&apos;exprimer depuis des ann&#xe9;es." ID="ID_558869636" CREATED="1406715478353" MODIFIED="1406715704416"/>
-<node TEXT="De plus ce texte se veut l&apos;exemple de base de la solution que je propose.  En effet, j&apos;ajouterai &#xe0; celui-ci le programme que j&apos;ai g&#xe9;n&#xe9;r&#xe9; &#xe0; partir du texte." ID="ID_1968228546" CREATED="1406715717061" MODIFIED="1406715831752"/>
-<node TEXT="Pour y arriver je vais d&#xe9;crire diff&#xe9;rents besoins, exigences, fonctionnalit&#xe9;s et les sc&#xe9;narios d&apos;utilisation qui en d&#xe9;coulent qui permettrons de g&#xe9;n&#xe9;rer une solution partielle du syst&#xe8;me d&apos;information qui en r&#xe9;sulte.  Avec le temps l&apos;ensemble des connaissances permettant de d&#xe9;crire la solution que je propose se pr&#xe9;ciseront et la construction d&apos;un syt&#xe8;me d&apos;information supportant cette solution se fera." ID="ID_629656203" CREATED="1406715836217" MODIFIED="1406716243752"/>
-<node TEXT="" ID="ID_1013772939" CREATED="1406719730640" MODIFIED="1406719730640"/>
-</node>
-<node TEXT="## Validation et v&#xe9;rification de ma solution" ID="ID_1150616035" CREATED="1406717163443" MODIFIED="1406719987827">
-<node TEXT="Le validation et la v&#xe9;rification du succ&#xe8;s des la solution que je propose &#xe0; l&apos;aide des trois m&#xe9;thodes suivantes :" ID="ID_1202262685" CREATED="1406716258024" MODIFIED="1406716324837">
-<node TEXT="Revue par des pairs des connaissances sur lequels mes travaux se basent;" ID="ID_1986324075" CREATED="1406716325366" MODIFIED="1406716382952"/>
-<node TEXT="G&#xe9;n&#xe9;ration d&apos;un syst&#xe8;me d&apos;informations supportant la solution que je propose;" ID="ID_631541124" CREATED="1406716388431" MODIFIED="1406716447035"/>
-<node TEXT="Tests automatis&#xe9; des fonctions simple du syst&#xe8;me;" ID="ID_1403654476" CREATED="1406716508437" MODIFIED="1406716574433"/>
-<node TEXT="Tests fonctionnels et tests d&apos;utilisabilit&#xe9;s de la solution dans un contexte industriel." ID="ID_83171220" CREATED="1406716575513" MODIFIED="1406716653284"/>
-</node>
-<node TEXT="Sans plus attendre voici le premier sc&#xe9;nario de la solution qui g&#xe9;n&#xe9;re le code d&apos;un programme python.  Il est possible de v&#xe9;rifier son ex&#xe9;cution pour ce sc&#xe9;nario en tapant la ligne de commande &quot;behave&quot; dans une fen&#xea;tre de commande." ID="ID_215383509" CREATED="1406716665581" MODIFIED="1406717266173"/>
-<node TEXT="" ID="ID_1246044901" CREATED="1406719738313" MODIFIED="1406719738313"/>
-</node>
-</node>
-<node TEXT="# Sc&#xe9;narios" ID="ID_419088519" CREATED="1406719867466" MODIFIED="1406719877210">
-<node TEXT="Scenario: *G&#xe9;n&#xe9;rer une version plus que partielle de la solution en python*" ID="ID_736022273" CREATED="1406711183379" MODIFIED="1406719812237">
-<font BOLD="false"/>
-<node TEXT="Given nous avons une sp&#xe9;cification - Nouveau test" ID="ID_1836088472" CREATED="1406711183379" MODIFIED="1406718192870"/>
-<node TEXT="And   nous n&apos;avons pas de fichier steps qui existe pour le sc&#xe9;natio courant" ID="ID_128117384" CREATED="1406711183379" MODIFIED="1406711183379">
-<node TEXT="When on ex&#xe9;cute behave" ID="ID_1224028422" CREATED="1406711183379" MODIFIED="1406711183379"/>
-<node TEXT="Then on obtient un mod&#xe8;le de base du code pour automatiser le sc&#xe9;nario courant" ID="ID_1256779618" CREATED="1406711183379" MODIFIED="1406711183379">
-<node TEXT="&quot;&quot;&quot;" ID="ID_585614648" CREATED="1406718700802" MODIFIED="1406718700802"/>
-<node TEXT="R&#xe9;sultat attendu" ID="ID_828235347" CREATED="1406718700802" MODIFIED="1406718700802">
-<node TEXT="@given(u&apos;nous avons une sp&#xe9;cification - Nouveau test&apos;)" ID="ID_1671191830" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_545709155" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_839274884" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-<node TEXT="@given(u&apos;nous n\&apos;avons pas de fichier steps qui existe pour le sc&#xe9;natio courant&apos;)" ID="ID_1790045866" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_1313538014" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_742275318" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-<node TEXT="@when(u&apos;on ex&#xe9;cute behave&apos;)" ID="ID_1527909809" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_481234979" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_1010416117" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-<node TEXT="@then(u&apos;on obtient un mod&#xe8;le de base du code pour automatiser le sc&#xe9;nario courant&apos;)" ID="ID_1543882810" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_1610819594" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_223211961" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-</node>
-<node TEXT="&quot;&quot;&quot;" ID="ID_579923793" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="mmg write - mmg_stop.txt" ID="ID_1376477868" CREATED="1374601846822" MODIFIED="1374604085339" LINK="mmg_stop.txt" COLOR="#000000" STYLE="fork">
-<font SIZE="12" BOLD="false" ITALIC="false"/>
-<edge COLOR="#808080"/>
-<node TEXT="Ce fichier est n&#xe9;cessaire pour r&#xe9;cup&#xe9;rer les lignes qui suivent celle du programme dans un fichier." ID="ID_414078708" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Ce fichier ne sera plus n&#xe9;cessaire quand le script mmg.py sera compl&#xe9;t&#xe9;." ID="ID_1660112274" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Examples" POSITION="right" ID="ID_1055039192" CREATED="1408286021291" MODIFIED="1408286054737">
-<node TEXT="introduction.feature" ID="ID_1138206296" CREATED="1406710531823" MODIFIED="1408286038276" LINK="../Behave/main.feature">
-<cloud COLOR="#f0f0f0" SHAPE="ARC"/>
-<font BOLD="true"/>
-<node TEXT="# -*- coding: utf-8 -*-" ID="ID_130070826" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Feature: Construction de *syst&#xe8;mes d&apos;information* &#xe0; l&apos;aide de *mod&#xe8;les de connaissances* contenant une *sp&#xe9;cification semi-formelle*" ID="ID_1323178892" CREATED="1406711183379" MODIFIED="1406719825884"/>
-<node TEXT="" ID="ID_34430813" CREATED="1406719692827" MODIFIED="1406719692827">
-<node TEXT="% Construction de *syst&#xe8;mes d&apos;information* &#xe0; l&apos;aide de *mod&#xe8;les de connaissances* contenant une *sp&#xe9;cification semi-formelle*" ID="ID_1400175574" CREATED="1406719548882" MODIFIED="1406719839104"/>
-<node TEXT="% Guy Leblanc" ID="ID_1578918735" CREATED="1406719563629" MODIFIED="1406719570099"/>
-<node TEXT="% 2014-07-30" ID="ID_1367950842" CREATED="1406719570717" MODIFIED="1406719598788"/>
-</node>
-<node TEXT="# Description" ID="ID_347856521" CREATED="1406719923906" MODIFIED="1406720058257">
-<node TEXT="" ID="ID_229657906" CREATED="1406716960528" MODIFIED="1406720117925">
-<node TEXT="La construction de syst&#xe8;me d&apos;informations est complexe &#xe0; ma&#xee;triser car elle implique en g&#xe9;n&#xe9;rale des personnes r&#xe9;alisant un grand nombre de t&#xe2;ches cognitives difficile &#xe0; observer et par le fait m&#xea;me &#xe0; suivre et &#xe0; mesurer." ID="ID_1400294842" CREATED="1406711944490" MODIFIED="1406714957923"/>
-<node TEXT="Trois types d&apos;art&#xe9;facts, qui sont le r&#xe9;sultat de processus plus ou moins structur&#xe9;s, sont utilis&#xe9;s dans l&apos;industries pour relever le d&#xe9;fi soulev&#xe9; par la mise en place d&apos;un syst&#xe8;me d&apos;information :" ID="ID_135807419" CREATED="1406712215459" MODIFIED="1406713685619">
-<node TEXT="La documentation (Ian Sommerville)" ID="ID_196060288" CREATED="1406712785874" MODIFIED="1406712796799"/>
-<node TEXT="Les programmes qui le compose (Livre des MBA UofL)" ID="ID_1857810069" CREATED="1406712799273" MODIFIED="1406713708546"/>
-<node TEXT="Les informations colliger ou g&#xe9;n&#xe9;rer par le syst&#xe8;me d&apos;information (???)" ID="ID_1028305735" CREATED="1406713569527" MODIFIED="1406713737551"/>
-</node>
-<node TEXT="La validation et la v&#xe9;rification (v&amp;v) de ces art&#xe9;facts est le seul moyens d&apos;arriver &#xe0; s&apos;assurer que le syst&#xe8;me d&apos;information d&#xe9;sir&#xe9; fait ce pour quoi il a &#xe9;t&#xe9; con&#xe7;u et qu&apos;il r&#xe9;pond aux objectifs et exigences pour lequels il a &#xe9;t&#xe9; construit." ID="ID_271249069" CREATED="1406713344596" MODIFIED="1406714069701"/>
-<node TEXT="Ce travail de validation et v&#xe9;rification en est un difficile car il n&apos;est que partiellement automatisable." ID="ID_1354411576" CREATED="1406713867963" MODIFIED="1406714086789"/>
-<node TEXT="" ID="ID_1397829470" CREATED="1406719700994" MODIFIED="1406719700994"/>
-</node>
-<node TEXT="## Besoins, exigences, validation et v&#xe9;rification" ID="ID_1145519938" CREATED="1406716987527" MODIFIED="1406719981763">
-<node TEXT="La construction d&apos;un syst&#xe8;me d&apos;information implique en g&#xe9;n&#xe9;rale l&apos;&#xe9;num&#xe9;ration d&apos;un ensemble d&apos;exigences impr&#xe9;cises au d&#xe9;part d&#xe9;coulant elle m&#xea;me de besoins qui sont impr&#xe9;cis." ID="ID_904553154" CREATED="1406714091432" MODIFIED="1406714285175"/>
-<node TEXT="D&#xe8;s lors il devient &#xe9;vident que l&apos;impr&#xe9;cision des besions et exigences rendent impossible la validation la v&#xe9;rification formelle des art&#xe9;factes d&#xe9;coulants de la mise en place d&apos;un syst&#xe8;me d&apos;informations." ID="ID_1187081598" CREATED="1406714349625" MODIFIED="1406714556102"/>
-<node TEXT="Cette impossibilit&#xe9; de v&#xe9;rification formelle de l&apos;ensemble des art&#xe9;facts r&#xe9;sultants de la construction d&apos;un syst&#xe8;me d&apos;information n&apos;emp&#xea;che cependant pas des v&#xe9;rifications qui elle peuvent &#xea;tre partiellement ou compl&#xe8;tement formelle." ID="ID_21574146" CREATED="1406714564357" MODIFIED="1406714751514"/>
-<node TEXT="C&apos;est ce qui est fait dans le domaine de l&apos;informatique avec plus ou moins de succ&#xe8;s en fonction de la capacit&#xe9; des &#xe9;quipes de projets &#xe0; formaliser les besoins, exigences et les art&#xe9;facts qui en d&#xe9;coule." ID="ID_1749668150" CREATED="1406714752864" MODIFIED="1406714909646"/>
-<node TEXT="" ID="ID_753399397" CREATED="1406719718861" MODIFIED="1406719718861"/>
-</node>
-<node TEXT="## Ma solution" ID="ID_1133661714" CREATED="1406717118367" MODIFIED="1406719984936">
-<node TEXT="Le texte qui va suivre pr&#xe9;sentera la solution que je propose pour arriver &#xe0; partir de besoins et exigences impr&#xe9;cises &#xe0; construire des art&#xe9;facts qui sont plus facile &#xe0; valider et &#xe0; v&#xe9;rifier." ID="ID_1632970622" CREATED="1406714915035" MODIFIED="1406715098661"/>
-<node TEXT="La solution que je propose utilise principalement des mod&#xe8;les de connaissances illustr&#xe9;s principalement &#xe0; l&apos;aide de cartes  de connaissances (&quot;Mind map&quot;)." ID="ID_968289252" CREATED="1406715103408" MODIFIED="1406715268931"/>
-<node TEXT="L&apos;id&#xe9;e principale est de d&#xe9;crire l&apos;ensemble des connaissances n&#xe9;cessaire &#xe0; la construction d&apos;un syst&#xe8;me d&apos;information &#xe0; l&apos;aide de plusieurs cartes de connaissances utilisant un langage semi formelle de sp&#xe9;cification qui peut aider &#xe0; l&apos;automatisation partielle de la g&#xe9;n&#xe9;ration des art&#xe9;facts qui le compose." ID="ID_79719812" CREATED="1406715291847" MODIFIED="1406715475609"/>
-<node TEXT="Je travail sur plusieurs &#xe9;l&#xe9;ments de cette solutions depuis plusieurs ann&#xe9;es.  Cependant le texte actuelle est la premi&#xe8;re description compl&#xe8;te du d&#xe9;fi que je tentais de relever et que je tentais d&apos;exprimer depuis des ann&#xe9;es." ID="ID_1366633198" CREATED="1406715478353" MODIFIED="1406715704416"/>
-<node TEXT="De plus ce texte se veut l&apos;exemple de base de la solution que je propose.  En effet, j&apos;ajouterai &#xe0; celui-ci le programme que j&apos;ai g&#xe9;n&#xe9;r&#xe9; &#xe0; partir du texte." ID="ID_558139508" CREATED="1406715717061" MODIFIED="1406715831752"/>
-<node TEXT="Pour y arriver je vais d&#xe9;crire diff&#xe9;rents besoins, exigences, fonctionnalit&#xe9;s et les sc&#xe9;narios d&apos;utilisation qui en d&#xe9;coulent qui permettrons de g&#xe9;n&#xe9;rer une solution partielle du syst&#xe8;me d&apos;information qui en r&#xe9;sulte.  Avec le temps l&apos;ensemble des connaissances permettant de d&#xe9;crire la solution que je propose se pr&#xe9;ciseront et la construction d&apos;un syt&#xe8;me d&apos;information supportant cette solution se fera." ID="ID_950395216" CREATED="1406715836217" MODIFIED="1406716243752"/>
-<node TEXT="" ID="ID_669280062" CREATED="1406719730640" MODIFIED="1406719730640"/>
-</node>
-<node TEXT="## Validation et v&#xe9;rification de ma solution" ID="ID_462263719" CREATED="1406717163443" MODIFIED="1406719987827">
-<node TEXT="Le validation et la v&#xe9;rification du succ&#xe8;s des la solution que je propose &#xe0; l&apos;aide des trois m&#xe9;thodes suivantes :" ID="ID_1884784105" CREATED="1406716258024" MODIFIED="1406716324837">
-<node TEXT="Revue par des pairs des connaissances sur lequels mes travaux se basent;" ID="ID_1287253493" CREATED="1406716325366" MODIFIED="1406716382952"/>
-<node TEXT="G&#xe9;n&#xe9;ration d&apos;un syst&#xe8;me d&apos;informations supportant la solution que je propose;" ID="ID_1603264043" CREATED="1406716388431" MODIFIED="1406716447035"/>
-<node TEXT="Tests automatis&#xe9; des fonctions simple du syst&#xe8;me;" ID="ID_1807151597" CREATED="1406716508437" MODIFIED="1406716574433"/>
-<node TEXT="Tests fonctionnels et tests d&apos;utilisabilit&#xe9;s de la solution dans un contexte industriel." ID="ID_1854245786" CREATED="1406716575513" MODIFIED="1406716653284"/>
-</node>
-<node TEXT="Sans plus attendre voici le premier sc&#xe9;nario de la solution qui g&#xe9;n&#xe9;re le code d&apos;un programme python.  Il est possible de v&#xe9;rifier son ex&#xe9;cution pour ce sc&#xe9;nario en tapant la ligne de commande &quot;behave&quot; dans une fen&#xea;tre de commande." ID="ID_909939992" CREATED="1406716665581" MODIFIED="1406717266173"/>
-<node TEXT="" ID="ID_1653416770" CREATED="1406719738313" MODIFIED="1406719738313"/>
-</node>
-</node>
-<node TEXT="# Sc&#xe9;narios" ID="ID_1555007277" CREATED="1406719867466" MODIFIED="1406719877210">
-<node TEXT="Scenario: *G&#xe9;n&#xe9;rer une version plus que partielle de la solution en python*" ID="ID_1429745722" CREATED="1406711183379" MODIFIED="1406719812237">
-<font BOLD="false"/>
-<node TEXT="Given nous avons une sp&#xe9;cification - Nouveau test" ID="ID_293363051" CREATED="1406711183379" MODIFIED="1406718192870"/>
-<node TEXT="And   nous n&apos;avons pas de fichier steps qui existe pour le sc&#xe9;natio courant" ID="ID_5753429" CREATED="1406711183379" MODIFIED="1406711183379">
-<node TEXT="When on ex&#xe9;cute behave" ID="ID_89226685" CREATED="1406711183379" MODIFIED="1406711183379"/>
-<node TEXT="Then on obtient un mod&#xe8;le de base du code pour automatiser le sc&#xe9;nario courant" ID="ID_1661911974" CREATED="1406711183379" MODIFIED="1406711183379">
-<node TEXT="&quot;&quot;&quot;" ID="ID_295647138" CREATED="1406718700802" MODIFIED="1406718700802"/>
-<node TEXT="R&#xe9;sultat attendu" ID="ID_1100825015" CREATED="1406718700802" MODIFIED="1406718700802">
-<node TEXT="@given(u&apos;nous avons une sp&#xe9;cification - Nouveau test&apos;)" ID="ID_1968495411" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_628640299" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_523831236" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-<node TEXT="@given(u&apos;nous n\&apos;avons pas de fichier steps qui existe pour le sc&#xe9;natio courant&apos;)" ID="ID_1216120071" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_738853632" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_1880410596" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-<node TEXT="@when(u&apos;on ex&#xe9;cute behave&apos;)" ID="ID_1158567930" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_1249639295" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_1626533543" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-<node TEXT="@then(u&apos;on obtient un mod&#xe8;le de base du code pour automatiser le sc&#xe9;nario courant&apos;)" ID="ID_653370419" CREATED="1406718700804" MODIFIED="1406718700804"/>
-<node TEXT="def step_impl(context):" ID="ID_1142119615" CREATED="1406718700804" MODIFIED="1406718700804">
-<node TEXT="assert False" ID="ID_1798904353" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-</node>
-<node TEXT="&quot;&quot;&quot;" ID="ID_1107411617" CREATED="1406718700804" MODIFIED="1406718700804"/>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="mmg write - mmg_stop.txt" ID="ID_497464012" CREATED="1374601846822" MODIFIED="1374604085339" LINK="mmg_stop.txt" COLOR="#000000" STYLE="fork">
-<font SIZE="12" BOLD="false" ITALIC="false"/>
-<edge COLOR="#808080"/>
-<node TEXT="Ce fichier est n&#xe9;cessaire pour r&#xe9;cup&#xe9;rer les lignes qui suivent celle du programme dans un fichier." ID="ID_596083087" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
-<node TEXT="Ce fichier ne sera plus n&#xe9;cessaire quand le script mmg.py sera compl&#xe9;t&#xe9;." ID="ID_1899758620" CREATED="1374601846822" MODIFIED="1374601846822" COLOR="#000000" STYLE="fork">
-<edge COLOR="#808080"/>
-</node>
 </node>
 </node>
 </node>
@@ -347,24 +75,20 @@
 <node TEXT="Cookiecutter to automate these steps when starting your next project" ID="ID_1265591127" CREATED="1406792949860" MODIFIED="1406792949860"/>
 </node>
 </node>
-<node TEXT="Project Layout" ID="ID_627984546" CREATED="1406792949860" MODIFIED="1408284959909">
-<font BOLD="true"/>
-<node TEXT="When setting up a project, the layout (or directory structure) is" ID="ID_211239656" CREATED="1406792949860" MODIFIED="1406792949860">
+<node TEXT="Project Layout" ID="ID_627984546" CREATED="1406792949860" MODIFIED="1406792949860">
+<node TEXT="When setting up a project, the layout (or directory structure) is" ID="ID_211239656" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="important to get right. A sensible layout means that potential" ID="ID_1437175962" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="contributors don&apos;t have to spend forever hunting for a piece of code;" ID="ID_514188963" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="file locations are intuitive. Since we&apos;re dealing with an existing" ID="ID_650560885" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="project, it means you&apos;ll probably need to move some stuff around." ID="ID_1453049538" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="Let&apos;s start at the top. Most projects have a number of top-level files" ID="ID_211478379" CREATED="1406792949860" MODIFIED="1406792949860"/>
-</node>
-<node TEXT="There are then three directories that every project should have:" ID="ID_1700861490" CREATED="1406792949860" MODIFIED="1408285773576">
-<font BOLD="true"/>
-<node TEXT="(like setup.py, README.md, requirements.txt, etc)." ID="ID_320908938" CREATED="1406792949860" MODIFIED="1408284832999"/>
+<node TEXT="(like setup.py, README.md, requirements.txt, etc). There are then" ID="ID_320908938" CREATED="1406792949860" MODIFIED="1406792949860"/>
+<node TEXT="three directories that every project should have:" ID="ID_1700861490" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="A docs directory containing project documentation" ID="ID_195209754" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="A directory named with the project&apos;s name which stores the actual Python package" ID="ID_1211238217" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="A test directory in one of two places" ID="ID_42833085" CREATED="1406792949860" MODIFIED="1406792949860">
 <node TEXT="Under the package directory containing test code and resources" ID="ID_34109793" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="As a stand-alone top level directory" ID="ID_1074910272" CREATED="1406792949860" MODIFIED="1406792949860"/>
-</node>
 </node>
 <node TEXT="To get a better sense of how your files should be organized, here&apos;s a" ID="ID_166505034" CREATED="1406792949860" MODIFIED="1406792949860"/>
 <node TEXT="simplified snapshot of the layout for one of my projects, sandman:" ID="ID_1343644885" CREATED="1406792949860" MODIFIED="1406792949860"/>
@@ -1376,6 +1100,7 @@
 </node>
 </node>
 <node TEXT="Installing Python on Windows" ID="ID_576753064" CREATED="1406892283384" MODIFIED="1406892319063" LINK="http://docs.python-guide.org/en/latest/starting/install/win/"/>
+<node TEXT="Test on linux" ID="ID_114417191" CREATED="1410740015862" MODIFIED="1410740022312"/>
 </node>
 </node>
 </map>
